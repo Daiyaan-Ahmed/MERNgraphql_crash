@@ -14,14 +14,3 @@ app.use('/graphql', graphqlHTTP({
 app.listen(port, ()=>{
     console.log(`server running on ${port}`)
 })
-
-// const projectType= new GraphQLObjectType({
-//     name:"Project",
-//     fields: ()=>({
-//         name:{type: GraphQLString},
-//         client:{type: ClientType},
-//         description:{type:GraphQLString},
-//         status:{type:GraphQLString}
-
-//     })
-// })
